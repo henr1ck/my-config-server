@@ -10,4 +10,4 @@ management:
   endpoints:
     web:
       exposure:
-        exclude: 'shutdown'
+        exclude: 'shutdown', 'loggers'
