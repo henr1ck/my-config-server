@@ -11,13 +11,3 @@ management:
     web:
       exposure:
         include: '*'
-    enabled-by-default: false
-  endpoint:
-    shutdown:
-      enabled: true
-    health:
-      enabled: true
-    info:
-      enabled: true
-    refresh:
-      enabled: true

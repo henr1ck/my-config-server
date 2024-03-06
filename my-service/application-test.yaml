@@ -10,8 +10,4 @@ management:
   endpoints:
     web:
       exposure:
-        exclude: '/shutdown'
-    enabled-by-default: false
-  endpoint:
-    shutdown:
-      enabled: false
+        exclude: 'shutdown'
