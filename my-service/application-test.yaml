@@ -10,10 +10,8 @@ management:
   endpoints:
     web:
       exposure:
-        include: '*'
+        exclude: '/shutdown'
     enabled-by-default: false
   endpoint:
     shutdown:
       enabled: false
-    refresh:
-      enabled: true
