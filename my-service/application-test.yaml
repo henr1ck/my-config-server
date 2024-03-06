@@ -3,6 +3,6 @@ spring:
     name: my-service
 
 my-service:
-  message: "hello"
-  yourName: "test"
+  message: "hi"
+  yourName: "tests"
 
