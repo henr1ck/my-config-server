@@ -3,6 +3,17 @@ spring:
     name: my-service
 
 my-service:
-  message: "hi"
+  message: "hello"
   yourName: "tests"
 
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+    enabled-by-default: false
+  endpoint:
+    shutdown:
+      enabled: false
+    refresh:
+      enabled: true
